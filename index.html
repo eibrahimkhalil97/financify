@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Financify - Bakir Khata</title>
+  <script src="https://apis.google.com/js/api.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Financify</h1>
+  <button id="loginBtn">Login with Google</button>
+  <div id="app" style="display:none;">
+    <input type="text" id="customerName" placeholder="Customer Name">
+    <input type="number" id="amount" placeholder="Amount">
+    <select id="type">
+      <option value="send">Send</option>
+      <option value="receive">Receive</option>
+    </select>
+    <button onclick="addTransaction()">Add</button>
+    <h2>Entries</h2>
+    <div id="entries"></div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>

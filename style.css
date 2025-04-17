@@ -1,0 +1,64 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff8e1;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 20px;
+  text-align: center;
+}
+h1 {
+  color: #bfa034;
+}
+#loginBtn {
+  background-color: #bfa034;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+#loginBtn:hover {
+  background-color: #a98b2b;
+}
+input, select {
+  padding: 10px;
+  margin: 5px;
+  width: 80%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  background-color: #bfa034;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+#entries {
+  margin-top: 20px;
+}
+.entry {
+  background: white;
+  padding: 10px;
+  margin: 5px auto;
+  max-width: 400px;
+  border: 2px solid #bfa034;
+  border-radius: 10px;
+  text-align: left;
+}
+.send {
+  color: red;
+}
+.receive {
+  color: green;
+}
+.balance {
+  color: blue;
+}

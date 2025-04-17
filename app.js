@@ -4,8 +4,8 @@ let transactions = JSON.parse(localStorage.getItem('transactions')) || [];
 let customerSuggestions = [];
 let fileId = null;
 
-const CLIENT_ID = 'YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com'; // Replace with your Google client ID
-const API_KEY = 'YOUR_GOOGLE_API_KEY'; // Replace with your API key
+const CLIENT_ID = '957491674984-lm9gqjhcki00fkesabe0t1ab9f95n9ns.apps.googleusercontent.com'; // Replace with your Google client ID
+const API_KEY = 'AIzaSyD5dK48mDuvLgSsiHhjLraCQ1aMbRs_Nsk'; // Replace with your API key
 const DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/drive/v3/rest"];
 const SCOPES = "https://www.googleapis.com/auth/drive.file";
 

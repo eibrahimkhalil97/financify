@@ -1,0 +1,2 @@
+# financify
+financify management app
